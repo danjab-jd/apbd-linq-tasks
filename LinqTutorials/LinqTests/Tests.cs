@@ -6,11 +6,11 @@ namespace LinqTests;
 
 public partial class Tests
 {
-    public static IEnumerable<Emp> EmpsTest { get; set; }
-    
-    public static IEnumerable<Dept> DeptsTest { get; set; }
-    
-    public static int[] Array = { 1, 1, 1, 1, 1, 1, 10, 1, 1, 1, 1, 10, 2, 10, 10 };
+    private IEnumerable<Emp> EmpsTest { get; }
+
+    private IEnumerable<Dept> DeptsTest { get; }
+
+    private int[] Array = { 1, 1, 1, 1, 1, 1, 10, 1, 1, 1, 1, 10, 2, 10, 10 };
 
     public Tests()
     {

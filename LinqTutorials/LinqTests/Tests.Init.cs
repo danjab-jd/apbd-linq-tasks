@@ -4,7 +4,7 @@ namespace LinqTests;
 
 public partial class Tests
 {
-    private static IList<Dept> LoadTestDepts()
+    private IList<Dept> LoadTestDepts()
     {
         List<Dept> deptsCol = new();
 
@@ -52,7 +52,7 @@ public partial class Tests
         return deptsCol;
     }
 
-    private static IList<Emp> LoadTestEmps()
+    private IList<Emp> LoadTestEmps()
     {
         List<Emp> empsCol = new();
 
